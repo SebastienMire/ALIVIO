@@ -1,0 +1,341 @@
+@charset "UTF-8";
+body header .first {
+  width: 83%;
+  margin: auto;
+}
+body header nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav .bouton {
+  border: none;
+  background-color: green;
+  padding: 1vh 2vw;
+}
+body header nav h1 {
+  color: green;
+}
+body header nav ul {
+  list-style: none;
+  width: 45%;
+  display: flex;
+}
+body header nav li {
+  width: 30%;
+  display: flex;
+  color: black;
+}
+body header nav li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav #signin a {
+  text-decoration: none;
+}
+body #hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./images/hero.jpg);
+  height: 110ch;
+  display: flex;
+  width: 100%;
+}
+body #hero #minihero {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+body #hero #minihero a {
+  text-decoration: none;
+}
+body #hero h3 {
+  width: 440px;
+  top: 161px;
+  font-family: "georgia", serif;
+  font-size: 4em;
+  color: green;
+}
+body #hero p {
+  width: 420px;
+  height: 123px;
+  top: 400px;
+}
+body #hero a {
+  width: 127px;
+  height: 25px;
+  padding: 2vh 3vw;
+  background-color: green;
+  color: white;
+}
+body .hiw {
+  margin-top: 10%;
+}
+body .hiw h3 {
+  margin-left: 10%;
+}
+@media (max-width: 992px) {
+  body .hiw h3 {
+    font-size: 1.8em;
+  }
+}
+body .art {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  body .art {
+    font-size: 1.5em;
+  }
+}
+body .art h2 {
+  width: 30%;
+  font-size: 50px;
+  color: #01996D;
+}
+body .art p {
+  width: 40%;
+}
+body #art {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+}
+@media (max-width: 992px) {
+  body #art {
+    display: initial;
+  }
+  body #art img {
+    width: 70%;
+  }
+}
+body #art .un span {
+  font-family: "Georgia";
+  font-size: 150px;
+  opacity: 0.6;
+  color: rgba(1, 153, 109, 0.2);
+}
+body #art .un h4 {
+  position: absolute;
+  font-family: "Georgia";
+  font-size: 30px;
+  left: 15%;
+  line-height: 588%;
+}
+body #art .un img {
+  width: 200px;
+  height: 288px;
+}
+body #art .un p {
+  width: 382px;
+  font-size: 20px;
+  line-height: 150%;
+}
+body #art .deux h5 {
+  position: absolute;
+  font-family: "Georgia";
+  font-size: 30px;
+  line-height: 500%;
+}
+body #art .deux span {
+  font-family: "Georgia";
+  font-size: 150px;
+  opacity: 0.6;
+  color: rgba(1, 153, 109, 0.2);
+}
+body #art .deux p {
+  width: 392px;
+  font-size: 20px;
+  line-height: 200%;
+}
+body #art .trois h5 {
+  position: absolute;
+  font-family: "Georgia";
+  font-size: 30px;
+  line-height: 588%;
+}
+body #art .trois span {
+  font-family: "Georgia";
+  font-size: 150px;
+  opacity: 0.6;
+  color: rgba(1, 153, 109, 0.2);
+}
+body #art .trois p {
+  width: 392px;
+  font-size: 20px;
+  line-height: 120%;
+}
+body #vidéo {
+  height: 922px;
+  width: 1920px;
+  margin-top: 18%;
+  background-color: rgb(36, 88, 82);
+}
+body .droite {
+  margin: auto;
+  width: 80%;
+  align-items: center;
+  height: 80vh;
+  display: flex;
+}
+@media (max-width: 992px) {
+  body .droite {
+    width: 100%;
+  }
+}
+body #image {
+  width: 40%;
+}
+@media (max-width: 992px) {
+  body #image {
+    width: 600em;
+  }
+}
+body .texte {
+  width: 40%;
+}
+body .texte h2 {
+  font-family: "georgia", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 78.5px;
+  color: white;
+}
+body .texte p {
+  font-family: "lato", sans-serif;
+  font-size: 25px;
+  color: white;
+  line-height: 60px;
+}
+body .texte a {
+  font-family: "lato", sans-serif;
+  padding: 2vh 3vw;
+  background-color: #01996D;
+  color: white;
+  text-decoration: none;
+  line-height: 38px;
+}
+body #relou {
+  margin: auto;
+  width: 70%;
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  body #relou {
+    width: 30%;
+    margin: auto;
+  }
+}
+body .avantdernier {
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  body .avantdernier {
+    width: 1em;
+  }
+}
+body .avantdernier h6 {
+  font-size: 25px;
+}
+body .avantdernier h2 {
+  font-size: 50px;
+  color: #01996D;
+  font-family: "Georgia";
+  line-height: 157%;
+}
+body .avantdernier p {
+  font-family: "lato";
+  line-height: 24px;
+}
+body .avantdernier a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px 20px 50px;
+  background-color: #01996D;
+}
+body #doubleimage img {
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  body #doubleimage img {
+    width: 18em;
+  }
+}
+body .tripleimage {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 250em;
+}
+@media (max-width: 992px) {
+  body .tripleimage {
+    top: 240em;
+  }
+}
+body .tripleimage p {
+  border-bottom: 1px solid black;
+  padding-bottom: 4%;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 14.49px;
+}
+body .tripleimage img {
+  background-color: #01996D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  border-radius: 50%;
+}
+body .tripleimage h6 {
+  font-size: 11px;
+}
+body .tripleimage p {
+  line-height: 218%;
+  font-weight: 700;
+}
+body footer {
+  height: 60vh;
+  margin-top: 10%;
+  background-color: rgb(36, 88, 82);
+}
+body #nimporte {
+  height: 58vh;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+body h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: white;
+}
+body .first {
+  padding-left: 0%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+body .last {
+  display: flex;
+}
+body .last a {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

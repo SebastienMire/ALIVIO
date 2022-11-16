@@ -1,0 +1,409 @@
+body {
+
+    //Début du header//
+    header {
+        .first {
+
+            width: 83%;
+            margin: auto;
+        }
+
+        nav {
+
+
+            .bouton {
+                border: none;
+                background-color: green;
+                padding: 1vh 2vw;
+            }
+
+            h1 {
+                color: green;
+            }
+
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                width: 45%;
+                display: flex;
+            }
+
+            li {
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                width: 30%;
+                display: flex;
+                color: black;
+            }
+            #signin{
+                a{
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+    }
+
+    //Section Héro//
+    #hero {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./images/hero.jpg);
+        height: 110ch;
+        display: flex;
+        width: 100%;
+       
+
+
+        #minihero {
+            margin-left: 8%;
+            margin-top: 4%;
+            a{
+                text-decoration: none;
+            }
+        }
+
+        h3 {
+            width: 440px;
+            top: 161px;
+            font-family: 'georgia', serif;
+            font-size: 4em;
+            color: green;
+        }
+
+        p {
+            width: 420px;
+            height: 123px;
+            top: 400px;
+        }
+
+        a {
+            width: 127px;
+            height: 25px;
+            padding: 2vh 3vw;
+            background-color: green;
+            color: white;
+        }
+    }
+    //Début de la section How it Works//
+    .hiw {
+        margin-top: 10%;
+
+        h3 {
+            @media (max-width: 992px) {
+                font-size: 1.8em;
+            }
+            margin-left: 10%;
+        }
+    }
+
+    .art {
+        @media (max-width: 992px) {
+            font-size: 1.5em;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        align-items: center;
+
+        h2 {
+            width: 30%;
+            font-size: 50px;
+            color: #01996D;
+        }
+
+        p {
+            width: 40%;
+        }
+    }
+    //Début du span// 
+    #art{
+        @media (max-width: 992px) {
+           display: initial;
+           
+            img{
+                width: 70%;
+            }
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10%;
+        .un {
+            
+            span {
+                font-family: 'Georgia';
+                font-size: 150px;
+                opacity: 0.6;
+                color: #01996D33
+            }
+
+            h4 {
+                position: absolute;
+                font-family: 'Georgia';
+                font-size: 30px;
+                left: 15%;
+                line-height: 588%;
+            }
+
+            img {
+                width: 200px;
+                height: 288px;
+            }
+
+            p {
+                width: 382px;
+                font-size: 20px;
+                line-height: 150%;
+            }
+        }
+
+        .deux {
+            h5 {
+                position: absolute;
+                font-family: 'Georgia';
+                font-size: 30px;
+                line-height: 500%;
+            }
+
+            span {
+                font-family: 'Georgia';
+                font-size: 150px;
+                opacity: 0.6;
+                color: #01996D33
+            }
+
+            p {
+                width: 392px;
+                font-size: 20px;
+                line-height: 200%;
+            }
+        }
+
+        .trois {
+            h5 {
+                position: absolute;
+                font-family: 'Georgia';
+                font-size: 30px;
+                line-height: 588%;
+            }
+
+            span {
+                font-family: 'Georgia';
+                font-size: 150px;
+                opacity: 0.6;
+                color: #01996D33
+            }
+
+            p {
+                width: 392px;
+                font-size: 20px;
+                line-height: 120%;
+            }
+
+        }
+
+    }  
+   
+        
+    //Section Vidéo//
+    #vidéo {
+        height: 922px;
+        width: 1920px;
+        margin-top: 18%;
+        background-color: rgb(36, 88, 82);
+       
+    }
+
+    .droite {
+        margin: auto;
+        width: 80%;
+        align-items: center;
+        height: 80vh;
+        display: flex; 
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    #image {
+        width: 40%;
+        @media (max-width: 992px) {
+            width: 600em;
+        }
+       
+    }
+
+    .texte {
+        width: 40%;
+
+        h2 {
+            font-family: 'georgia', serif;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 78.5px;
+            color: white;
+        }
+
+        p {
+            font-family: 'lato', sans-serif;
+            font-size: 25px;
+            color: white;
+            line-height: 60px;
+        }
+
+        a {
+            font-family: 'lato', sans-serif;
+            padding: 2vh 3vw;
+            background-color: #01996D;
+            color: white;
+            text-decoration: none;
+            line-height: 38px;
+        }
+    }
+    //Section DoubleImage//
+    #relou {
+        margin: auto;
+        width: 70%;
+        margin-top: 8%;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 992px) {
+            width: 30%;
+            margin: auto;
+        }
+    }
+
+    .avantdernier {
+
+        flex-direction: column;
+        @media (max-width: 992px) {
+            width: 1em;
+        }
+
+        h6 {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 50px;
+            color: #01996D;
+            font-family: 'Georgia';
+            line-height: 157%;
+        }
+
+        p {
+            font-family: 'lato';
+            line-height: 24px;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 50px 20px 50px;
+            background-color: #01996D;
+        }
+    }
+
+    #doubleimage {
+        img{
+        position: relative;
+        width: 100%;
+        @media (max-width: 992px) {
+            width: 18em;
+        }
+        }
+       
+    }
+
+    .tripleimage {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 250em;
+        @media (max-width: 992px) {
+            top: 240em;
+        }
+        
+        p {
+            border-bottom: 1px solid black;
+            padding-bottom: 4%;
+            font-family: 'lato', sans-serif;
+            font-weight: 600;
+            font-size: 14.49px;
+
+        }
+
+        img {
+            background-color: #01996D;
+            width: fit-content;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h6 {
+            font-size: 11px;
+        }
+
+        p {
+            line-height: 218%;
+            font-weight: 700;
+        }
+
+    }
+    //Section Footer//
+    footer {
+        height: 60vh;
+        margin-top: 10%;
+        background-color: rgba(36, 88, 82, 1);
+    }
+
+    #nimporte {
+        height: 58vh;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 55px;
+        color: white;
+    }
+
+    .first {
+        padding-left: 0%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .last {
+        display: flex;
+
+        a {
+            font-family: 'lato', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30px;
+            text-decoration: none;
+            color: white;
+
+        }
+    }
+}
